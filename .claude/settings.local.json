@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C C:/Users/USER/repo/sample_coding add docs/superpowers/specs/2026-04-05-dashboard-design.md)",
+      "Bash(git -C:*)",
+      "Bash(yes \"\")",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias)",
+      "Bash(npm run:*)",
+      "Bash(git -c user.email=\"user@example.com\" -c user.name=\"User\" add -A)",
+      "Bash(git -c user.email=\"user@example.com\" -c user.name=\"User\" commit -m \"chore: initialize Next.js project with TypeScript and Tailwind\")"
+    ]
+  }
+}
